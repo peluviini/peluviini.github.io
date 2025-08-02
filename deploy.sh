@@ -1,4 +1,5 @@
 
+rm -rf ./docs/*
 cp -rf ./backend/page/* ./docs
 
 git add ./
