@@ -1,2 +1,2 @@
 
-cp -rf ./backend/page/ ./docs
+cp -rf ./backend/page/* ./docs
