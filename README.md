@@ -24,7 +24,7 @@ And any information of mine will be assigned for each item with any animation.
    To make 3D models and animation
 
  - ### [Flutter](https://flutter.dev/)
-   One of AltJS, Dart and Flutter is its Flamework.
+   One of AltJS, Dart and Flutter is its Framework.
 
    The Heaven of css-free
 
