@@ -8,3 +8,8 @@ bevy = "0.16.1"
 
 [target.wasm32-unknown-unknown]
 runner = "wasm-server-runner"
+
+[profile.wasm-release]
+inherits = "release"
+opt-level = "s"
+strip = "debuginfo"
