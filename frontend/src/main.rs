@@ -43,6 +43,7 @@ fn setup(
             .looking_at(Vec3::new(-15.0, 6.0, 0.0), Vec3::Y),
     ));
     commands.spawn((
+        Msaa::Off,
         Mesh3d(meshes.add(Plane3d::default().mesh().size(5000.0, 5000.0))),
         MeshMaterial3d(materials.add(Color::srgb(0.2, 0.2, 0.2))),
     ));
